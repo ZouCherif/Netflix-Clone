@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+/* background **********************************************/
+
+
+#backimg{
+    background: url("images/back.jpg");
+    background-size: cover;
+    height: 730px;
+    border-bottom: 8px solid #222;
+}
+
+.background{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) ,transparent 60%,rgba(0,0,0,.8));
+    height: 100.1%;
+}
+
+
+/* Navbar **************************************************/
+
+.navbar{
+    display: flex;
+    padding: 20px 50px;
+    height: 5rem;
+    margin-bottom: 100px;
+}
+
+.logo{
+    width: 10.4375rem;
+    height: 2.8125rem;
+    margin-right: auto;
+}
+
+#language{
+    margin-right: 1.375rem;
+    padding: 0 1.375rem;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+#language option{
+    background: grey;
+}
+
+.signin{
+    margin-right: 1.375rem;
+    background-color: #e50914;
+    font-size: 1rem;
+    color: white;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+
+/* main ****************************************************/
+
+.main{
+    text-align: center;
+    padding: 75px 20px;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.main h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.main p{
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.form div{
+    position: relative;
+    width: 500px;
+    height: 70px;
+}
+
+.form input{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+}
+
+.form label{
+    position: absolute;
+    left: 10px;
+    color: gray;
+}
+
+.form button{
+    font-size: 1.8rem;
+    width: 250px;
+    height: 70px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+}
+
+
+/* TV ************************************************************/
+
+.Tv{
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+    padding: 70px 45px;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tvclip{
+    width: 45%;
+}
+
+h2{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.description{
+    width: 50%;
+}
+
+.description p{
+    font-size: 1.625rem;
+}
+.tvclip{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.tvclip img{
+    z-index: 10;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+
+#Tvvideo{
+    position: absolute;
+    top: 48%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 87%;
+    height: 55%;
+}
+
+/* *********************************************** */
+.phonesection{
+    padding: 20px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile{
+    position: relative;
+    text-align: center;
+}
+
+.mobile img{
+    width: 350px;
+}
+
+.stranger{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid hsla(0,0%,100%,.25);
+    text-align: left;
+}
+
+.stranger img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.stranger span{
+    color: rgb(89, 89, 171);
+    margin-right: 50px;
+}
+
+
+/* ************************************* */
+
+.devices{
+    background-color: black;
+    color: white;
+    min-height: 500px;
+    border-bottom: 8px solid #222;
+    padding-top: 50px;
+}
+
+
+#devicesclip{
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%,-50%);
+
+}
+
+/* ************************************************ */
+
+.kids{
+    background-color: black;
+    color: white;
+    min-height: 500px;
+    border-bottom: 8px solid #222;
+    padding-top: 50px;
+}
+
+.kids img{
+    max-width: 45%;
+}
+
+.kids .description{
+    width: 55%;
+}
+
+
+/* ***************************************** */
+.qst{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-bottom: 8px solid #222;
+}
+
+.qst h1{
+    font-size: 3.125rem;
+    margin-bottom: 50px;
+}
+
+.sm-container{
+    margin: 0 auto;
+    max-width: 925px;
+    text-align: center;
+}
+
+.sm-container ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+ul li button{
+    width: 90%;
+    background-color: #303030;
+    color: white;
+    font-size: 1.625rem;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+
+li div{
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    background-color: #303030;
+    padding: 20px;
+    font-size: 1.625rem;
+    margin-bottom: 5px;
+}
+
+li div p:first-child{
+    margin-bottom: 30px;
+}
+
+
+.plus{
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    width: 1em;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+
+/* footer ********************************* */
+
+footer{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.contain{
+    width: 70%;
+    margin: 0 auto;
+    height: 220px;
+    padding-top: 50px;
+}
+
+.contain p{
+    margin-bottom: 30px;
+}
+
+.contain li{
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.footerlan{
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.footerlan #language{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.footerlan p{
+    margin-top: 20px;
+    color: grey;
+}
+
+
+@media (max-width: 1450px){
+    .main h1{
+        font-size: 3.125rem;
+    }
+    .form div{
+        width: 450px;
+        height: 60px;
+    }
+    .form button{
+        font-size: 1.625rem;
+        width: 212px;
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 950px){
+    .logo{
+        width: 108px;
+        height: 35px;
+    }
+    .form{
+        display: block;
+    }
+    .form div{
+        height: 48px;
+        width: 100%;
+    }
+    .form label{
+        font-size: 14px;
+    }
+    .form button{
+        font-size: 1rem;
+        height: 40px;
+        width: 130px;
+        margin-top: 15px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    .tvclip, .description{
+        width: 100%;
+    }
+    .description{
+        text-align: center;
+    }
+    .kids .description{
+        width: 100%;
+    }
+    h2, .sm-container h1{
+        font-size: 2.5rem;
+    }
+    .description p{
+        font-size: 1.25rem;
+    }
+
+    .phonesection .container, .kids .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .kids img{
+        max-width: 80%;
+    }
+
+    .question div, .question button{
+        font-size: 1.125rem;
+    }
+    .question button{
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .contain, .footerlan{
+        width: 85%;
+    }
+    .footerlan{
+        margin-top: 20px;
+    }
+    .contain li{
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #backimg{
+        height: 485px;
+    }
+    .navbar{
+        padding: 20px 15px;
+        margin: 0;
+    }
+    .logo{
+        width: 88px;
+    }
+    .navbar #language{
+        width: 100px;
+        height: 28px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .signin{
+        width: 61px;
+        height: 28px;
+        padding: 2px;
+    }
+    .main h1{
+        font-size: 1.75rem;
+    }
+    .main h1 br{
+        display: none;
+    }
+    .main p{
+        font-size: 1.125rem;
+    }
+    form h3{
+        font-size: 1.125rem;
+    }
+
+    .main div{
+        width: 100%;
+    }
+    h2, .sm-container h1{
+        font-size: 1.625rem;
+    }
+    .description p{
+        font-size: 1.125rem;
+    }
+    .qst{
+        padding: 40px 0;
+    }
+    .question div, .question button{
+        margin: 0;
+        width: 100%;
+    }
+    .question{
+        margin-top: 5px;
+    }
+    .sm-container form{
+        padding: 0 30px;
+    }
+    #mobiledevice{
+        max-width: 300px;
+    }
+    .stranger{
+        font-size: 13px;
+    }
+    .stranger img{
+        width: 34px;
+    }
+
+}
